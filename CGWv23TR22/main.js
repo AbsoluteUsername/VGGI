@@ -403,7 +403,7 @@ function LoadTexture() {
 
     const image = new Image();
     image.crossOrigin = 'anonymus';
-    image.src = "https://raw.githubusercontent.com/AbsoluteUsername/Textures/main/Polished_metal_texture.jpg";
+    image.src = "https://raw.githubusercontent.com/AbsoluteUsername/VGGI/CGW/CGWv23TR22/Polished_metal_texture.jpg";
     image.onload = () => {
         gl.bindTexture(gl.TEXTURE_2D, texture);
         gl.texImage2D(
